@@ -1,0 +1,44 @@
+.generate-form {
+    height: calc(100vh - 4rem);
+
+    .row {
+        height: 100%;
+
+        .side-nav-list {
+            background: black;
+
+            .nav-pills .nav-link {
+                background: none;
+                border: none;
+                color: #DADDE1;
+
+                &:hover {
+                    background-color: #605c5c6b;
+                    cursor: pointer;
+                }
+
+                &.active {
+                    background: #605c5c6b;
+                }
+            }
+        }
+
+        .sample-form {
+            position: relative;
+            .form-data{
+                height: calc(100vh - 8rem);
+            overflow-y: auto;
+
+            }
+            .submit-btn{
+                position: absolute;
+                bottom: 0%;
+                right: 5%;
+                width: -webkit-fill-available;
+                background-color: white;
+            }
+
+        }
+    }
+
+}
